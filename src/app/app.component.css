@@ -1,0 +1,42 @@
+#bottomBar {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  display: flex;
+  flex-flow: column-reverse nowrap;
+
+  background: linear-gradient(to top, rgba(0,0,0,1) 0%,rgba(125,185,232,0) 100%);
+}
+
+#title {
+  margin: 8px 16px 8px 32px;
+}
+
+#cardContainer {
+  width: 100%;
+
+  flex-grow: 1;
+
+  padding: 16px 0 16px 16px;
+
+  box-sizing: border-box;
+
+  background: rgba(255, 255, 255, 0.6);
+
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+#cardContainer app-bus-card{
+  margin: 0 16px 0 0;
+}
+
+app-map {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}

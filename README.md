@@ -1,28 +1,13 @@
-# ManorSignage
+# UBC Bus Tracking Web App
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.4.1.
+This app was developed when I moved out of university residence to a small home a couple of kilometers away from UBC Campus. While I could previously afford a lot of flexibility in my morning schedule (as I could just walk to class), this was just not possible anymore as I had to _take the bus_. I soon realize the difficulty of trying to adapt my schedule to that of TransLink's (Vancouver's public transit company): I didn't know when the bus was going to arrive at my stop.
 
-## Development server
+The UBC Bus Tracking project stems from that dilemna. Instead of relying on Google Maps on my phone for getting bus information, this application allows me to have a monitor near the entrance of my house with constant bus schedule information.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Preview
+![Demo Screenshot](/img/demo.png)
 
-## Code scaffolding
+## How to install
+You will need to have the Angular CLI installed on your computer.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-Before running the tests make sure you are serving the app via `ng serve`.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+You can then clone the repo and run `npm install` in your console window. To view the app in your browser, just run `ng serve`.

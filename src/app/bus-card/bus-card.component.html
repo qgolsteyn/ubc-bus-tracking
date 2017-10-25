@@ -1,0 +1,15 @@
+<div class="logo">
+  <h2>{{name}}</h2>
+</div>
+<div class="busList">
+  <div class="bus" *ngFor="let schedule of scheduleList | orderBy: ['time']; let i=index">
+    <div *ngIf="i<4">
+      <div class="number">
+        {{schedule.routeName}}
+      </div>
+      <div class="time">
+        {{schedule.time}} min
+      </div>
+    </div>
+  </div>
+</div>

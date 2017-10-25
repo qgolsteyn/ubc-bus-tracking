@@ -34,8 +34,12 @@ testem.log
 /typings
 
 # e2e
+/e2e
 /e2e/*.js
 /e2e/*.map
+
+protractor.conf.js
+karma.conf.js
 
 # System Files
 .DS_Store

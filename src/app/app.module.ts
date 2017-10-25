@@ -3,14 +3,22 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 
+import { SharedModule } from './shared/shared.module';
+import { BusCardComponent } from './bus-card/bus-card.component';
+
+/**
+ * The main module for this application
+ */
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    BusCardComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    SharedModule,
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
 export class AppModule { }
